@@ -1,0 +1,200 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+}
+
+.wraper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.input {
+	height: 20px;
+	width: 200px;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	padding-block: 0px;
+	padding-inline: 0px;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+}
+.results-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	width: 200px;
+	/* margin-top: -1px; */
+}
+.results-list__item {
+	margin: 0;
+	margin-top: -1px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	width: 200px;
+	height: 20px;
+}
+.results-list__item:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.repositories-list {
+	margin-top: 130px;
+}
+
+.repo-card {
+    display: flex;
+    flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
+	margin: 0;
+	padding: 0;
+    margin-top: -1px;
+	width: 400px;
+	border: 1px solid #ccc;
+}
+.repo-card__item {
+	padding: 5px;
+}
+.repo-card__close-btn{
+    margin: 20px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight:100;
+}
